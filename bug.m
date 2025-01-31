@@ -1,0 +1,1 @@
+This bug occurs when using NSDateFormatter to parse dates from strings that don't conform to the expected format.  If the input string is malformed, or doesn't match the date format specified in the NSDateFormatter, the date parsing can fail silently, returning nil or an unexpected date. This can lead to unexpected behavior or crashes later in your code.
